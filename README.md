@@ -9,7 +9,7 @@
 
 ### Solution and Project setup:
 #### Set Up gRPC Service:
-- Open Visual Studio 2022 and create a new gRPC project, and name it to **GrpcCoreService** and select **.NET 6.0** under the Framework option.
+- Open Visual Studio 2022 and create a new gRPC project, and name it to **GrpcCoreService** and select **.NET 6.0** under the Framework option.<br />
 	<img src="Images/gprc_01.png" width="30%">
 	<img src="Images/gprc_02.png" width="30%">
 	<img src="Images/gprc_03.png" width="30%">
