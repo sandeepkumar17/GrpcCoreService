@@ -7,9 +7,9 @@ using GrpcClientApp;
 //};
 //var channel = GrpcChannel.ForAddress("http://localhost:5181");
 //var client = new Greeter.GreeterClient(channel);
-//var serverReply = await client.SayHelloAsync(message);
+//var serverResponse = await client.SayHelloAsync(message);
 
-//Console.WriteLine(serverReply.Message);
+//Console.WriteLine(serverResponse.Message);
 //Console.WriteLine("Press any key to exit...");
 //Console.ReadKey();
 
@@ -28,9 +28,9 @@ else
 {
     var emp = new GetEmpDetail { EmpId = empId };
 
-    var serverReply = await client.GetEmpInformationAsync(emp);
+    var serverResponse = await client.GetEmpInformationAsync(emp);
     Console.WriteLine("Employee Name | Role | Email ID | Department");
-    Console.WriteLine($"{serverReply.EmpName} | {serverReply.EmpRole} | {serverReply.EmpEmail} | {serverReply.EmpDepartment}");
+    Console.WriteLine($"{serverResponse.EmpName} | {serverResponse.EmpRole} | {serverResponse.EmpEmail} | {serverResponse.EmpDepartment}");
 }
 Console.WriteLine("Press any key to exit...");
 Console.ReadKey();
