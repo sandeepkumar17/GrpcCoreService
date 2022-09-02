@@ -1,11 +1,12 @@
 ﻿# .NET6.0 - gRPC Service and Client implementation #
 
+[Read the full documentation here](https://dev.to/techiesdiary/net-60-grpc-server-and-client-implementation-77m)
+
 ### Introduction
 
 - gRPC (Google Remote Procedure Calls) is a modern open-source high-performance Remote Procedure Call (RPC) framework that can run in any environment.
 - It can efficiently connect services in and across data centers with pluggable support for load balancing, tracing, health checking, and authentication. 
 - It is also applicable in the last mile of distributed computing to connect devices, mobile applications, and browsers to backend services.
-- Read more details about [gRPC here](https://grpc.io/about/)
 
 ### Solution and Project setup:
 #### Set Up gRPC Service:
