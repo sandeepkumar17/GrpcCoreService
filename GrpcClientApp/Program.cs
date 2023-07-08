@@ -13,7 +13,7 @@ using GrpcClientApp;
 //Console.WriteLine("Press any key to exit...");
 //Console.ReadKey();
 
-var channel = GrpcChannel.ForAddress("http://localhost:5181");
+var channel = GrpcChannel.ForAddress("http://localhost:5000");
 var client = new Employee.EmployeeClient(channel);
 
 Console.WriteLine("Enter Employee ID....");
