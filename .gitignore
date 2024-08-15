@@ -2,10 +2,8 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/GrpcCoreService/bin/Debug/net6.0
+/GrpcCoreService/bin/Debug/
 /GrpcCoreService/obj
-/GrpcClientApp/bin/Debug/net6.0
+/GrpcClientApp/bin/Debug/
 /GrpcClientApp/obj
-/.vs/GrpcCoreService/v17/.suo
-/.vs/GrpcCoreService/DesignTimeBuild/.dtbcache.v2
-/.vs/GrpcCoreService/v17/.futdcache.v1
+/.vs/GrpcCoreService/

@@ -1,6 +1,6 @@
-﻿# .NET6.0 - gRPC Service and Client implementation #
+﻿# .NET8.0 - gRPC Service and Client implementation #
 
-[Read the full documentation here](https://dev.to/techiesdiary/net-60-grpc-server-and-client-implementation-77m)
+[Read the blog here](https://dev.to/techiesdiary/net-60-grpc-server-and-client-implementation-77m)
 
 ### Introduction
 
@@ -10,7 +10,7 @@
 
 ### Solution and Project setup:
 #### Set Up gRPC Service:
-- Open Visual Studio 2022 and create a new gRPC project, and name it to **GrpcCoreService** and select **.NET 6.0** under the Framework option.<br />
+- Open Visual Studio 2022 and create a new gRPC project, and name it to **GrpcCoreService** and select **.NET 8.0** under the Framework option.<br />
 	<img src="Images/gprc_01.png" width="30%">
 	<img src="Images/gprc_02.png" width="30%">
 	<img src="Images/gprc_03.png" width="30%">
@@ -23,9 +23,8 @@
 
 #### Set Up Client Application:
 - Add a Console App Project with the name **GrpcClientApp** and select the required configuration.
-	<img src="Images/gprc_06.png" width="30%">
-	<img src="Images/gprc_07.png" width="30%">
-	<img src="Images/gprc_08.png" width="30%">
+	<img src="Images/gprc_06.png" width="50%">
+	<img src="Images/gprc_07.png" width="50%">
 
 - Add the required packages to the client app project.
 	```
